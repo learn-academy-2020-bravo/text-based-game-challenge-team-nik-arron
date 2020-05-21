@@ -15,7 +15,7 @@ puts "
     choice = gets.chomp
 
     if choice == "1"
-     puts " You grab your skateboard and you start skating around the neighborhood ,it's been a hot minute of skating around and you havent seen any pokemon:(, your starting to believe they don't exist. What would u like to do next?
+     puts " You grab your skateboard and you start skating around the neighborhood ,it's been a hot minute of skating and 2you havent seen any pokemon:(, your starting to believe they don't exist. What would u like to do next?
         
     1. Keep skating around
     2. Head to a local bar because you're sad u didnt find a pokemon :(
@@ -27,19 +27,29 @@ puts "
         elsif choice_2 == "2"
             puts "select your Bahh
 
-            1. Coin Op
-            2. Riches
-            3. Gossip Grill"
+            1. Coin Op 'play games while u get drunk'
+            2. Riches 'the local gay bah, LETS DANCE!'"
+            choose_bar = gets.chomp
+             if choose_bar == "1"
+                puts "On your way to coin op someone opened their car door as u where skating by. You flew into the door and broke your legs. Game over!. Would you like to play again (yes or no)"
+                play_again = gets.chomp
+                if play_again == "yes"
+                restart
+                end
+
+            end
+            
 
         else choice_2 == "3"
-            puts "You have decided to give up and watch Pokemon on Tv, your not a pokemon master but at least your havin fun. Would u like to restart???   (yes or no)"
+            puts "You have decided to give up and watch Pokemon on Tv, your not a pokemon master but at least your havin fun. Would u like to play again???   (yes or no)"
               play_again = gets.chomp
          if play_again == "yes"
                 restart
             else puts "Game over, keep watchin that pokemon ^_^ I wont disturb"
+            else puts "Game Over you will never be a pokemon master"
         
          end
-        end
+ exist       end
 
         
     
